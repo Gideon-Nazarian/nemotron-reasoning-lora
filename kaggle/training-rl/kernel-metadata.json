@@ -1,0 +1,25 @@
+{
+  "id": "gideonnazarian/grpo-smoke-test-v1",
+  "title": "GRPO smoke test v1",
+  "code_file": "10-grpo-smoke-test.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "keywords": ["gpu"],
+  "dataset_sources": [
+    "gideonnazarian/nemotron-solver-training-data",
+    "gideonnazarian/nemotron-lora-sft-v3-adapter"
+  ],
+  "kernel_sources": [
+    "ryanholbrook/nvidia-utility-script",
+    "alexxxsem/nemotron-offline-dependencies"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9fa0da194fad2241d3f01a80581cbecbd3a258b4d1b695e2cbbbc62a0fd205ac",
+  "machine_shape": "NvidiaRtxPro6000"
+}

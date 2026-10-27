@@ -1,0 +1,10 @@
+This repository contains only original work by Gideon Nazarian, released under
+the MIT License (see LICENSE). It does not redistribute other competitors'
+notebooks, adapters or datasets; the README lists them under Credits as plain
+references.
+
+Not covered by the MIT License:
+- The NVIDIA Nemotron Model Reasoning Challenge dataset, which is licensed
+  CC BY 4.0 (attribution: NVIDIA Research). No competition data is included here.
+- The NVIDIA Nemotron-3-Nano-30B-A3B model, licensed under the NVIDIA Open
+  Model License. No model weights are included here.

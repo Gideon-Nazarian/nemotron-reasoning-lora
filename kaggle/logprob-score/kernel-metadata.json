@@ -1,0 +1,26 @@
+{
+  "id": "gideonnazarian/logprob-score",
+  "title": "logprob score",
+  "code_file": "logprob-score.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "mayukh18/nemotron-packages",
+    "llkh0a/rtx-wheels",
+    "gideonnazarian/nemotron-v18-corpus"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ],
+  "machine_shape": "NvidiaRtxPro6000",
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ]
+}

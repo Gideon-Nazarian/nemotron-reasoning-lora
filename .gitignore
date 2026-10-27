@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data + model artifacts (heavy, regenerable)
+data/
+*.zip
+*.tar.gz
+*.bin
+*.safetensors
+*.gguf
+
+# ML experiment tracking
+wandb/
+mlruns/
+
+# Kaggle credentials — NEVER commit
+kaggle.json
+
+# Reference repos (cloned for study, not part of our code)
+reference/
+
+# Local scratch from kaggle kernel output downloads
+submission/
+submission */
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

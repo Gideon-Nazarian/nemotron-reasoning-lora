@@ -1,0 +1,8 @@
+{
+  "title": "Nemotron LoRA SFT v4 Trained Adapter",
+  "id": "gideonnazarian/nemotron-lora-sft-v4-adapter",
+  "licenses": [{"name": "MIT"}],
+  "subtitle": "LoRA adapter from nemotron-lora-sft-v4 (gravity format fix, LB 0.56)",
+  "description": "LoRA adapter weights from the v4 SFT training run on 4795 records (v3's 4681 + 114 new gravity examples with 1-decimal answers from format fix). Base model: metric/nemotron-3-nano-30b-a3b-bf16. Public leaderboard score: 0.56 (REGRESSED from v3's 0.58). Likely cause: format ambiguity — model now uncertain whether to output 1- or 2-decimal gravity answers. Saved for diagnostic eval.",
+  "isPrivate": true
+}

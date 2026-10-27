@@ -1,0 +1,8 @@
+{
+  "title": "Nemotron LoRA SFT v3 Trained Adapter",
+  "id": "gideonnazarian/nemotron-lora-sft-v3-adapter",
+  "licenses": [{"name": "MIT"}],
+  "subtitle": "LoRA adapter from nemotron-lora-sft-v3 (Fix A, full 4681 corpus, LB 0.58)",
+  "description": "LoRA adapter weights from the v3 SFT training run on the full 4681-record corpus with Fix A reasoning. Base model: metric/nemotron-3-nano-30b-a3b-bf16. Public leaderboard score: 0.58 (vs v2 0.54, v1 0.51, untrained baseline 0.50). Saved here so downstream eval kernels can load the adapter without re-training.",
+  "isPrivate": true
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Nemotron LoRA SFT v9 Trained Adapter",
+  "id": "gideonnazarian/nemotron-lora-sft-v9-adapter",
+  "licenses": [{"name": "MIT"}],
+  "subtitle": "LoRA adapter from sft-v9-multi-epoch (Unsloth + CCE + 3 epochs, LB 0.62)",
+  "description": "LoRA adapter weights from the v9 SFT training run. Stack = Unsloth FastLanguageModel + Cut Cross-Entropy + 9 target modules (q/k/v/o + in/out + up/down + lm_head) + r=alpha=32 + dropout=0 + AdamW betas (0.9, 0.95) + linear LR decay to 0 + 3 epochs at batch 32 on 4681 solver-generated records. Base model: metric/nemotron-3-nano-30b-a3b-bf16. Public leaderboard score: 0.62 (NEW HIGH-WATER MARK, +0.04 vs v3's 0.58). Saved for diagnostic eval to identify which categories the +0.04 lift came from.",
+  "isPrivate": true
+}
